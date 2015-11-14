@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-Oct-2015, 20:22:47
+    Author     : LANREWAJU
+*/
+
+.background{ 
+	-fx-background-color: #8fe2e9;
+}
+
+
+
+.myDialog{
+    -fx-background-color: #dbdcdd;
+}
+.myDialog > *.button-bar > *.container{
+	-fx-font-size: 14px;
+    -fx-background-color: #dbdcdd;
+}
+.myDialog > *.label.content{
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+.myDialog:header *.header-panel{
+    -fx-background-color: #061539;
+}
+.myDialog:header *.header-panel *.label{
+    -fx-font-size: 30 px;
+    -fx-font-style: italic;
+    -fx-text-fill: #FAFAFA;
+}
